@@ -39,7 +39,7 @@ Minat Untuk Beli?
 
 ## CARA PASANG APIKEY
 1. Pastikan kamu sudah memiliki akun di website [Api Lannn](https://api.lannn.me/users/login)
-2. Di bagian [Account Setting](https://api.lannn.me/users/profile) salin apikey kamu.
+2. Di bagian [Account Setting](https://api.lannn.me/profile) salin apikey kamu.
 3. Ganti `Your Key` di file `settings.js` dengan apikey kamu.
 ```ts
 // Api
