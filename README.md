@@ -6,7 +6,7 @@
 <a href="#"><img title="Yuuki Asuna Bot Telegram" src="https://img.shields.io/badge/TELEGRAM BOT-cyan?colorA=%5df9ff00&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/erlanrahmat/asuna-yuuki"><img title="Author & Base" src="https://img.shields.io/badge/Author-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/zeeoneofficial"><img title="Author & Base" src="https://img.shields.io/badge/Author-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/erlanrahmat/asuna-yuuki"><img title="Recode" src="https://img.shields.io/badge/Recode-Erlanrahmat-red.svg?style=for-the-badge&logo=github"></a>
