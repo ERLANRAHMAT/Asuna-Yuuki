@@ -662,7 +662,7 @@ break
 
 //==============[ Islamic Menu ]==========\\
 case 'asmaulhusna': {
-var asma = await fetch(api('lann', '/api/muslim/' + command, {}, 'apikey'))
+var asma = await fetch(global.api('lann', '/api/muslim/' + command, {}, 'apikey'))
 if (!asma.ok) throw asma.text()
 var dataa = await asma.json()
 var data = dataa.result
@@ -682,7 +682,7 @@ break
 
 case 'kisahnabi': {
 if (!text) return reply(`Kirim perintah:\n${prefix+command} nama nabi\n\nContoh penggunaan:\n${prefix+command} Adam`)
-var asma = await fetch(api('lann', '/api/muslim/' + command, {
+var asma = await fetch(global.api('lann', '/api/muslim/' + command, {
 nabi: q
 }, 'apikey'))
 if (!asma.ok) throw asma.text()
@@ -696,7 +696,6 @@ key += `🗯️ Story : ${data.result.kisah}\n`
 reply(key)
 }
 break
-
 //==================[ Photooxy Menu ]===================\\
 case 'bevel-text':
 case 'luxury':
